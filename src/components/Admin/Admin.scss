@@ -1,0 +1,29 @@
+$box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+$color: #7367f0;
+$textColor: #625f6e;
+$font-size: 16px;
+.admin {
+  background-color: rgb(248, 248, 248);
+  height: 100vh;
+}
+
+.admin-content {
+  position: relative;
+  margin-left: 280px;
+  display: flex;
+  justify-content: center;
+  box-shadow: $box-shadow;
+
+  .content {
+    width: 100%;
+    padding: 0 28px;
+    height: 100vh;
+  }
+}
+
+.admin-container {
+  margin-top: 28px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: $box-shadow;
+}

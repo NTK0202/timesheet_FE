@@ -1,0 +1,64 @@
+@import '../../../../styles/color';
+
+.register-forget-form {
+  .ant-input {
+    margin: 0;
+    padding: 0;
+  }
+  .require-icon {
+    color: #ea5455;
+  }
+  .button {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    border: none;
+
+    button {
+      display: block;
+    }
+    .primary-button.hide {
+      display: none;
+    }
+
+    button.cancel {
+      margin-left: 20px;
+    }
+  }
+  .enableFocus {
+    box-shadow: none !important;
+  }
+  .ant-form-item {
+    margin: 8px 0;
+  }
+  .register-textarea .ant-form-item {
+    width: 70%;
+  }
+  .ant-row {
+    align-items: center;
+  }
+  .checkout-original,
+  .checkin-original {
+    margin-left: 10px;
+  }
+  .register-textarea {
+    .ant-col {
+      margin-top: 8px;
+      align-self: flex-start;
+    }
+    .ant-form-item {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .ant-modal {
+    width: 80% !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 940px) {
+  .ant-modal {
+    width: 80% !important;
+  }
+}
